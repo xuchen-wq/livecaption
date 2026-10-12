@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 黑白灰配色，与 icon 一脉相承；亮色模式用近黑做主按钮 -->
+    <color name="brand_primary">#1C1B1F</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_container">#ECECEC</color>
+    <color name="brand_on_container">#1B1B1B</color>
+    <color name="ic_launcher_background">#000000</color>
+</resources>

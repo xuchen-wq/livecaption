@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiveCaption</string>
+    <string name="home_subtitle">看视频时，把翻译字幕悬浮在屏幕上</string>
+    <string name="home_start">开始悬浮字幕</string>
+    <string name="home_stop">停止</string>
+    <string name="home_settings">连接设置</string>
+    <string name="home_save">保存配置</string>
+    <string name="hint_api_key">DASHSCOPE_API_KEY</string>
+    <string name="hint_workspace">业务空间 ID（WorkspaceId）</string>
+    <string name="hint_model">模型</string>
+    <string name="hint_target">译文语种，如 zh / en</string>
+    <string name="hint_source">源语种，留空自动（仅 3.5 支持）</string>
+    <string name="hint_phrases">热词，每行一条：源词=译法</string>
+</resources>
