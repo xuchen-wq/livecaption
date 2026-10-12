@@ -68,7 +68,7 @@ class MainActivity : android.app.Activity() {
             append("• 悬浮窗权限：")
             append(if (Settings.canDrawOverlays(this@MainActivity)) "已授予" else "未授予")
             appendLine()
-            append("点「开始悬浮字幕」后在系统弹窗里同意屏幕捕获，字幕会浮在屏幕底部（可拖动）。看的时候屏幕右上角常驻一个 ✕，点一下即停止计费。")
+            append("点「开始悬浮字幕」后在系统弹窗里同意屏幕捕获，字幕会浮在屏幕底部（可拖动）。看的时候屏幕右上角常驻一个按钮，点一下暂停（暂停即停止计费），再点一下继续。")
         }
     }
 
@@ -169,7 +169,7 @@ class MainActivity : android.app.Activity() {
             .putExtra(AudioCaptureService.EXTRA_RESULT_DATA, data)
 
         startForegroundService(intent)
-        toast("已启动。切到浏览器播放视频，右上角 ✕ 可停止计费")
+        toast("已启动。切到浏览器播放视频，右上角按钮可暂停/继续")
     }
 
     private fun toast(message: String) {
